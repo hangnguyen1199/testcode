@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(#141e30, #243b55);
+    background: #141e30;
 }
 
 .login-box {
@@ -186,12 +186,99 @@ span {
 }
 
 
+/*index*/
+
+.index {
+    width: 70%;
+}
+
+.topic {
+    text-align: center;
+}
+
+.topic h1 {
+    margin-top: 35px;
+    color: white;
+    font-size: 55px;
+}
+
+.mb-3 label {
+    color: #03e9f4;
+}
+
+.action {
+    margin-top: 30px;
+}
+
+.action button {
+    width: 75px;
+    height: 40px;
+}
+
+.btn-edit,
+.btn-delete {
+    margin-left: 15px;
+}
+
+.btn-lg {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(238, 232, 232);
+}
+
+
 /*register*/
 
 
 /*admin*/
 
-.btn-create {
-    float: right;
-    margin-right: 15px;
+
+/*pagination*/
+
+#paging {
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+#paging ul {
+    list-style: none;
+    display: flex;
+}
+
+#paging a {
+    text-decoration: none;
+}
+
+#paging a:hover {
+    color: tomato;
+}
+
+#paging .paginationjs-page,
+.paginationjs-ellipsis {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#paging .paginationjs-page a,
+#paging .paginationjs-prev a,
+#paging .paginationjs-next a {
+    color: white !important;
+}
+
+#paging .paginationjs-prev,
+#paging .paginationjs-next {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid white;
+    text-align: center;
 }
